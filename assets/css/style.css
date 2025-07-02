@@ -1,0 +1,103 @@
+/* No seu style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: calc(100vh - 40px - 5px - 20px - 20px);
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+
+/* Adicionando estilos para os títulos e links da sidebar */
+.sidebar h2,
+.sidebar h3,
+.sidebar h4, /* Inclua outros níveis de título se usar na sidebar */
+.sidebar a { /* Para os links dentro da sidebar */
+    white-space: nowrap;         /* Impede a quebra de linha do texto */
+    overflow: hidden;            /* Esconde o texto que excede o espaço */
+    text-overflow: ellipsis;     /* Adiciona "..." se o texto for cortado */
+    display: block;              /* Garante que o elemento ocupe a largura total disponível e o overflow funcione */
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    line-height: 1.6;
+    min-height: 0%;
+}
+
+.anchors {
+    text-align: left;
+    width: 300px;
+    padding: 30px;
+    border-left: 5px solid #ddd;
+    background-color: #f1f1f1;
+}
+
+/* Adicionando estilos para os links dentro de .anchors */
+.anchors a {
+    white-space: nowrap;         /* Impede a quebra de linha do texto */
+    overflow: hidden;            /* Esconde o texto que excede o espaço */
+    text-overflow: ellipsis;     /* Adiciona "..." se o texto for cortado */
+    display: block;              /* Garante que o elemento ocupe a largura total disponível e o overflow funcione */
+}
+
+
+/* imagem com as raças do jogo */
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* imagem com logo do jogo*/
+#img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* imagem com criação de personagem*/
+#img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* imagem com modos de jogo*/
+#img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#img5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
