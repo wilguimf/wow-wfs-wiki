@@ -1,1 +1,1 @@
-# wow-wfs-wiki
+Recriando o Wikipedia com Layout Moderno / desafio modulo 3 / Bootcamp DIO Santander 2025 - Front-End
