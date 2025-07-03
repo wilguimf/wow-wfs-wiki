@@ -1,4 +1,3 @@
-/* No seu style.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,9 +5,13 @@ body {
 }
 
 .logo {
-    padding: 10px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    
+    padding-top:  0px 20px;
+    background-color: #ffffff;
+    border-bottom: 5px solid #000000;
+    position: sticky; 
+    top: 0;          
+    z-index: 100; 
 }
 
 .content {
@@ -19,24 +22,31 @@ body {
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     min-height: calc(100vh - 40px - 5px - 20px - 20px);
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    border-bottom: 5px solid #000000;
 }
 
 .sidebar {
     width: 200px;
     padding: 20px;
-    border-right: 1px solid #ddd;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+    position: sticky; 
+    top: 20px;       
+    height: fit-content;
+    align-self: flex-start; 
+
 }
 
-/* Adicionando estilos para os títulos e links da sidebar */
+
 .sidebar h2,
 .sidebar h3,
-.sidebar h4, /* Inclua outros níveis de título se usar na sidebar */
-.sidebar a { /* Para os links dentro da sidebar */
-    white-space: nowrap;         /* Impede a quebra de linha do texto */
-    overflow: hidden;            /* Esconde o texto que excede o espaço */
-    text-overflow: ellipsis;     /* Adiciona "..." se o texto for cortado */
-    display: block;              /* Garante que o elemento ocupe a largura total disponível e o overflow funcione */
+.sidebar h4, 
+.sidebar a { 
+    white-space: nowrap;        
+    overflow: hidden;            
+    text-overflow: ellipsis;     
+    display: block;              
 }
 
 .main {
@@ -44,22 +54,28 @@ body {
     padding: 20px;
     line-height: 1.6;
     min-height: 0%;
+    border-left: 2px solid #00000059;  
+    border-right: 2px solid #00000059; 
 }
 
 .anchors {
     text-align: left;
     width: 300px;
     padding: 30px;
-    border-left: 5px solid #ddd;
-    background-color: #f1f1f1;
+    border-left: 20 solid #ddd;
+    background-color: #ffffff;
+    position: sticky; 
+    top: 20px;      
+    height: fit-content; 
+    align-self: flex-start;
 }
 
-/* Adicionando estilos para os links dentro de .anchors */
+
 .anchors a {
-    white-space: nowrap;         /* Impede a quebra de linha do texto */
-    overflow: hidden;            /* Esconde o texto que excede o espaço */
-    text-overflow: ellipsis;     /* Adiciona "..." se o texto for cortado */
-    display: block;              /* Garante que o elemento ocupe a largura total disponível e o overflow funcione */
+    white-space: nowrap;       
+    overflow: hidden;           
+    text-overflow: ellipsis;     
+    display: block;              
 }
 
 
@@ -95,6 +111,7 @@ body {
     width: 50%;
 }
 
+/*imagem dos simbolos das funções de classe */
 #img5 {
     display: block;
     margin-left: auto;
